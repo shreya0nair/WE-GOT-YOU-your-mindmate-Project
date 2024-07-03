@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 90px;
+}
+
+.header-container img {
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: black;
+    color: white;
+}
+
+.hero-section {
+    background: cadetblue;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.hero-content h2 {
+    font-size: 2em;
+}
+
+.about-section {
+    padding: 100px 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h3 {
+    font-size: 1.8em;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.features-section {
+    padding: 100px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.one h4{
+    color: white;
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: blue;
+}
+
+.enlarge {
+    font-size: 24px;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.enlarge:hover {
+    background-color: red; /* Change the color on hover to your preferred color */
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    max-width: 500px;
+    padding-left: 20px; /* Add left padding to create space between image and text */
+}
+
+
+
+
+
