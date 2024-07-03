@@ -1,0 +1,1 @@
+"We Got You: your mindmate" is an innovative and user-friendly website dedicated to mental health andwell-being. Through a comprehensive range offeatures, this platform aims to provide valuableinformation, resources, and support to individualsof any age group especially university studentsseeking to prioritize their mental health journey.
